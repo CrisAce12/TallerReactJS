@@ -1,0 +1,133 @@
+*{
+
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Lucida Sans';
+
+}
+
+.header{
+
+  display: flex;
+  flex-wrap: wrap;
+
+  width: auto;
+  height: 500px;
+
+  justify-content: center;
+
+}
+
+.header_navbar{
+
+  display: flex;
+
+  width: 1000px; 
+  height: 50px; 
+
+  background-color: turquoise;
+
+  justify-content: center;
+
+}
+
+.header_list{
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+
+}
+
+.header_listItem{
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.header_link{
+
+  font-weight: bold;
+  
+  color: white;
+
+  text-decoration: none;
+
+}
+
+.header_article_1{
+
+  margin-top: 50px;
+  margin-bottom: 500px;
+
+  height: 400px;
+  width: 900px;
+
+  border-radius:10px;
+
+  background-position: 50% 20%; 
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-image: url(astronauta.png);
+
+}
+
+.main{
+
+  margin: 0 auto;
+  margin-top: 50px;
+
+  width: 500px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+}
+
+.main img{
+
+  width: 500px;
+
+}
+
+.footer{
+
+  display: flex;
+
+  width: 1000px;
+  height: 50px;
+
+  margin-top: 100px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  justify-content: center;
+  align-items: center;
+
+  background-color: slategray;
+  color: white;
+
+}
+
+.footer_contacto{
+
+  width: 500px;
+  text-align: center;
+
+}
+
+.footer_copyRight{
+
+  width: 500px;
+  text-align: center;
+
+}
+
